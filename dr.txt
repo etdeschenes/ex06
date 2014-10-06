@@ -1,0 +1,14 @@
+ex06
+
+Utilisez des types pour les paramètres de fonctions.
+
+2.
+
+#2 : La différence de jours entre 2 dates.
+34 jours
+
+Les dates sont?
+
+5.
+
+Les listes d'input?
