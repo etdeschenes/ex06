@@ -1,8 +1,8 @@
-library fonctions;
+library ex06;
 
 //No. 1
 //Source : http://fr.openclassrooms.com/forum/sujet/comparer-si-une-string-est-un-palindrome-18371
-bool palindrome(var word) {
+bool palindrome(String word) {
   for (int i = 0; i < word.length ~/ 2; i++) {
     if (word[i] != word[word.length - (1 + i)]) return false;
   }
@@ -10,7 +10,7 @@ bool palindrome(var word) {
 }
 
 //No. 2
-int differenceDate(var date1, var date2) {
+int differenceDate(DateTime date1, DateTime date2) {
   var difference;
   difference = date1.difference(date2);
   return difference.inDays;
@@ -18,7 +18,7 @@ int differenceDate(var date1, var date2) {
 
 //No. 3
 //Source : https://docs.google.com/presentation/d/1E8IRYDNk9l9UIvdoPlKp2iaraEvejxzHkgYpON6nCMo/edit?pli=1#slide=id.g2e2d4b4f_0_27
-String gradeClassification(var grade) {
+String gradeClassification(num grade) {
   var letter = "";
   if (grade >= 95) {
     return letter += "A+";

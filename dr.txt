@@ -1,5 +1,24 @@
 ex06
 
+20/20
+
+library functions;
+-->
+library ex06;
+
+bool palindrome(var word) {
+-->
+bool palindrome(String word) {
+
+int differenceDate(DateTime date1, DateTime date2) {
+String gradeClassification(num grade) {
+
+6.5
+Prepare two lists, one with the names of players and their clubs, ...
+AND THEIR CLUBS
+
+----------------
+
 Utilisez des types pour les paramètres de fonctions.
 
 2.

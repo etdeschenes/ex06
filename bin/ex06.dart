@@ -1,7 +1,7 @@
 import 'package:ex06/fonctions.dart';
 
 //No. 1
-void no1() {
+no1() {
   var words = ['radar', 'soleil', 'kayak'];
   var test;
   print('#1 : Est-ce que les mots suivants sont des palindrômes ?');
@@ -13,7 +13,7 @@ void no1() {
 }
 
 //No. 2
-void no2() {
+no2() {
   var date1 = new DateTime.now();
   var date2 = new DateTime(2014, 9, 2);
   print('#2 : La différence de jours entre $date1 et $date2.');
@@ -22,7 +22,7 @@ void no2() {
 }
 
 //No. 3
-void no3() {
+no3() {
   List gradeList = [59,76,85,98];
   var answer;
   print('#3 : La conversion de notes numériques en lettres.');
@@ -34,7 +34,7 @@ void no3() {
 }
 
 //No. 4
-void no4() {
+no4() {
   print('#4 : Listes de noms avec moins, plus ou 8 lettres.');
   List start = ['Flash', 'Sargent', 'Guillermo', 'Buster', 'Jinxopah', 'Rafaella', 'Estelle', 'Thalassa', 'Delphinia', 'Ellettra'];
   print('Liste principale de noms : $start');
@@ -46,7 +46,7 @@ void no4() {
 }
 
 //No. 5
-void no5() {
+no5() {
   List playersName = [['Malkin', 'Crosby'], ['Souray', 'Perry'], ['Karlsson', 'Phillips'], ['Johnson', 'Dubinsky'], ['Luongo', 'Hayes'], ['Tavares', 'Vanek']];
   List clubsName = ['Penguins', 'Ducks', 'Senators', 'Blue Jackets', 'Panthers', 'Islanders'];
   print('#5 : Liste des clubs avec les joueurs associés.');
@@ -56,7 +56,7 @@ void no5() {
   print("");
 }
 
-void main() {
+main() {
   no1();
   no2();
   no3();
